@@ -8,7 +8,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.validation.constraints.*;
 
 @Entity
-
+@Table(name="Student")
 public class NewFileEntity{
     @Id
     @GeneratedValue(stratergy = GenerationType.IDENTITY)
