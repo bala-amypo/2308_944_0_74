@@ -8,5 +8,6 @@ public interface NewfileService {
     NewfileEntity savedata(NewfileEntity newfile);
     NewfileEntity getidval(Long id);
     List<NewfileEntity> getall();
-    NewFileEntity update
+    NewFileEntity update(Long id, NewFileEntity newfile);
+    void delete(Long id);
 }
