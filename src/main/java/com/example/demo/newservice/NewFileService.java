@@ -1,9 +1,13 @@
-package com.example.demo.newservice;
+package com. example.demo.newservice;
 
-import com.example.demo.newentity.NewFileEntity;
+import java.util.List;
 
-public class NewFileService{
-    NewFileEntity savedata(NewFileEntity newfile);
-    NewFileEntity getIdVal(Long id);
-    
+import com.example.demo.newentity.NewfileEntity;
+
+public interface NewfileService {
+    NewfileEntity savedata(NewfileEntity newfile);
+    NewfileEntity getidval(Long id);
+    List<NewfileEntity> getall();
+    NewFileEntity update(Long id, NewfileEntity newfile);
+    void delete(Long id);
 }
