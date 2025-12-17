@@ -1,8 +1,10 @@
-package com.example.demo.entity;
+package com.example.project.entity;
 
 import java.time.LocalDate;
 
-public class StudentEntity {
+public class Studententity {
+    public Studententity() {
+    }
     private String name;
     private int id;
     private LocalDate date;
@@ -31,14 +33,11 @@ public class StudentEntity {
     public void setCgpa(float cgpa) {
         this.cgpa = cgpa;
     }
-    public StudentEntity(String name, int id, LocalDate date, float cgpa) {
+    public Studententity(String name, int id, LocalDate date, float cgpa) {
         this.name = name;
         this.id = id;
         this.date = date;
         this.cgpa = cgpa;
-    }
-    public StudentEntity() {
-        
     }
     
 }
