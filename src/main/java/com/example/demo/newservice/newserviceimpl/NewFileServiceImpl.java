@@ -1,27 +1,27 @@
 package com.example.demo.newservice.newserviceimpl;
 import java.util.List;
 import org.springframework.stereotype.Service;
-import com.example. demo.newentity. NewfileEntity;
-import com.example.demo.newservice.NewfileService;
+import com.example. demo.newentity. NewFileEntity;
+import com.example.demo.newservice.NewFileService;
 @Service
-public class NewfileServiceImpl implements NewfileService{
+public class NewFileServiceImpl implements NewFileService{
     
     @Override
-    public NewfileEntity savedata(NewfileEntity newfile) {
+    public NewFileEntity savedata(NewFileEntity newfile) {
 
     }
 
     @Override
-    public NewfileEntity getidval(Long id) {
+    public NewFileEntity getidval(Long id) {
 
     }
     @Override
-    public List<NewfileEntity> getall() {
+    public List<NewFileEntity> getall() {
 
     }
  
     @Override
-    public NewfileEntity update(Long id, NewfileEntity newfile) {
+    public NewFileEntity update(Long id, NewFileEntity newfile) {
 
     }
 
