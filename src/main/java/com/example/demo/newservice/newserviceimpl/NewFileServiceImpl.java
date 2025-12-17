@@ -8,9 +8,13 @@ public class NewFileServiceImpl implements NewFileService{
     
     private final NewFileRepo rep;
     @Override
-    public NewFileEntity savedata(NewFileEntity newfile) {
+
+    public NewFileServiceImpl(NewFileRepo){
         this.rep=rep;
-        
+    }
+    public NewFileEntity savedata(NewFileEntity newfile) {
+        return rep.save(newfile);
+
     }
 
     @Override
